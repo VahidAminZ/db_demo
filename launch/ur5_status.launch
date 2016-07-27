@@ -1,0 +1,5 @@
+<launch>
+
+  <node name="ur_moveit_status" pkg="db_demo" type="simple_moveit_application.py" respawn="false" output="screen"/>
+
+</launch>
